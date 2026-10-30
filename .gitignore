@@ -1,0 +1,22 @@
+# Conda environments
+env/
+.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Generated data
+Data/processed/*
+!Data/processed/.gitkeep
+
+# Model artifacts
+models/*
+!models/.gitkeep
+
