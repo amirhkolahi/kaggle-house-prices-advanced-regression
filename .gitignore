@@ -1,16 +1,23 @@
-# Conda environments
+# Conda and virtual environments
 env/
 .conda/
+.venv/
+venv/
 
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
 
 # Jupyter
 .ipynb_checkpoints/
 
 # VS Code
 .vscode/
+
+# Environment variables and secrets
+.env
+.env.*
 
 # Generated data
 Data/processed/*
@@ -20,3 +27,9 @@ Data/processed/*
 models/*
 !models/.gitkeep
 
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
